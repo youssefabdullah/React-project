@@ -1,0 +1,11 @@
+.containerSlider{
+    width: 95%;
+    
+    padding: 60px;
+    
+}
+.containerSlider img{
+    height: 800px;
+    width: 100%;
+
+}
