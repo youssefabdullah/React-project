@@ -53,6 +53,27 @@ input{
     padding: 0px 11px;
 
 }
+.wrap-container i {
+    display: none;
+    color: #fff;
+    font-size: 40px;
+    float: right;
+    padding: 10px;
+   overflow: hidden;
+}
+.wrap-container  i:hover {
+    background-color: #ff990080;
+    
+}
+.menu2{
+    float: right;
+    background-color: #00121bfb;
+    width: 110%;
+    padding: 10px;
+    height: 100%;
+    display: none;
+}
+
 
 @media screen and (max-width: 1080px){
     .menu{
@@ -62,4 +83,11 @@ input{
     input{
         width: 150px;
     }
+  .wrap-container  i{
+       display: block;
+    }
+    .menu2{
+        display: block;
+    }
+    
 }

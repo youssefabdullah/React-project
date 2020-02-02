@@ -16,8 +16,18 @@ class Navbar extends Component {
                                 <input className="search-txt" type="text" name="" placeholder="Type to search"/>
                                 <a className="search-btn" href="#"></a>
                             </div>
+                            <i class="fa fa-bars" ></i>
                             <div className="menu">
                                 <ul>
+                                    <a href=""><li>Home</li></a>
+                                    <a href=""><li>About us</li></a>
+                                    <a href=""><li>Services</li></a>
+                                    <a href=""><li>Contact</li></a>
+                                    <a href=""><li>Deals</li></a>
+                                </ul>
+                            </div>
+                            <div className="menu2">
+                                <ul className="ul2">
                                     <a href=""><li>Home</li></a>
                                     <a href=""><li>About us</li></a>
                                     <a href=""><li>Services</li></a>
